@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(252, 252, 252);
+}
+html,
+body,
+#root,
+#main {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#main {
+  overflow: auto;
+}
+select {
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input {
+  padding: 5px;
+  border-radius: 0px;
+}
+.label {
+  text-align: left;
+  display: 'inline-block';
+}
+.form-line {
+  margin-bottom: 10px;
+}
+button {
+  cursor: pointer;
+}
+.fat-shadow {
+  -moz-box-shadow: 0 6px 18px -5px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 0 6px 18px -5px rgba(0, 0, 0, 0.38);
+  box-shadow: 0 6px 18px -5px rgba(0, 0, 0, 0.38);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
