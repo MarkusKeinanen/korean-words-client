@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/korean-words-client/static/css/main.8abfd859.chunk.css",
+    "main.js": "/korean-words-client/static/js/main.b75078ce.chunk.js",
+    "main.js.map": "/korean-words-client/static/js/main.b75078ce.chunk.js.map",
+    "runtime-main.js": "/korean-words-client/static/js/runtime-main.e94d4fa4.js",
+    "runtime-main.js.map": "/korean-words-client/static/js/runtime-main.e94d4fa4.js.map",
+    "static/js/2.1e75f79b.chunk.js": "/korean-words-client/static/js/2.1e75f79b.chunk.js",
+    "static/js/2.1e75f79b.chunk.js.map": "/korean-words-client/static/js/2.1e75f79b.chunk.js.map",
+    "index.html": "/korean-words-client/index.html",
+    "precache-manifest.a7a8d7e13a4d65cab9dc7db35bd03937.js": "/korean-words-client/precache-manifest.a7a8d7e13a4d65cab9dc7db35bd03937.js",
+    "service-worker.js": "/korean-words-client/service-worker.js",
+    "static/css/main.8abfd859.chunk.css.map": "/korean-words-client/static/css/main.8abfd859.chunk.css.map",
+    "static/js/2.1e75f79b.chunk.js.LICENSE.txt": "/korean-words-client/static/js/2.1e75f79b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e94d4fa4.js",
+    "static/js/2.1e75f79b.chunk.js",
+    "static/css/main.8abfd859.chunk.css",
+    "static/js/main.b75078ce.chunk.js"
+  ]
+}
