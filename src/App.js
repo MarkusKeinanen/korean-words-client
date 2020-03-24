@@ -98,31 +98,9 @@ function App() {
           }
           const visible = visibleIndexes.includes(i)
 
-          const deleteButton = (
-            <button
-              onClick={() => {
-                if (!window.confirm(`Are you sure you want to delete word ${obj.meaning}?`)) return null
-                deleteWord(obj, () => {
-                  let newStrings = strings.filter(str => {
-                    if (obj.korean === str.korean && obj.pronounced === str.pronounced && obj.meaning === str.meaning) {
-                      return false
-                    }
-                    return true
-                  })
-                  setStrings(newStrings)
-                  alert(`Word ${obj.meaning} was successfully deleted.`)
-                })
-              }}
-              style={{ display: 'inline-block', marginRight: '20px', background: '#ed8e8e', color: 'white' }}
-            >
-              ✕
-            </button>
-          )
-
           if (englishFirst === 1) {
             return (
               <div key={'line' + i} style={{ padding: '8px', whiteSpace: 'nowrap' }}>
-                {deleteButton}
                 <span style={{ ...spanStyle }}>{obj.meaning}</span>
                 <span style={{ ...equalsStyle }}>=</span>
                 {getHiddenSpan(i, obj.pronounced, visible)}
@@ -133,7 +111,6 @@ function App() {
           } else {
             return (
               <div key={'line' + i} style={{ padding: '8px', whiteSpace: 'nowrap' }}>
-                {deleteButton}
                 <span style={{ ...spanStyle }}>{obj.korean}</span>
                 <span style={{ ...equalsStyle }}>=</span>
                 {getHiddenSpan(i, obj.pronounced, visible)}
