@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/korean-words-client/precache-manifest.a7a8d7e13a4d65cab9dc7db35bd03937.js"
+  "/korean-words-client/precache-manifest.c54f886d51c43422bd49fee22e730799.js"
 );
 
 self.addEventListener('message', (event) => {

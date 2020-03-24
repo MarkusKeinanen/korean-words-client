@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1417cfcd0118933c0e1f0b3f2d9b7c64",
+    "revision": "1b3e887f86d9a1232cbc0de21dbd477d",
     "url": "/korean-words-client/index.html"
   },
   {
