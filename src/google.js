@@ -8,15 +8,19 @@
 const spreadsheetId = '1nFb3jDXKOSw-aJjMZppVlWo62oFLpXM21wTCkp-Xdow'
 
 const parseDate = dateStr => {
-  let arr = dateStr.split('-')
-  let y = parseInt(arr[0])
-  let m = parseInt(arr[1]) - 1
-  let d = parseInt(arr[2])
-  let date = new Date()
-  date.setFullYear(y)
-  date.setMonth(m)
-  date.setDate(d)
-  return date
+  try {
+    let arr = dateStr.split('-')
+    let y = parseInt(arr[0])
+    let m = parseInt(arr[1]) - 1
+    let d = parseInt(arr[2])
+    let date = new Date()
+    date.setFullYear(y)
+    date.setMonth(m)
+    date.setDate(d)
+    return date
+  } catch (ex) {
+    return new Date()
+  }
 }
 
 window.listRows = () => {
